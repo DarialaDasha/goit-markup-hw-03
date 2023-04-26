@@ -1,0 +1,254 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --background-color: #ffffff;
+  --first-sec-background-color: #2e2f42;
+  --footer-sec-color: #2e2f42;
+  --logo-primary-color: #4d5ae5;
+  --logo-secondary-color: #2e2f42;
+
+  --accent-color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: #434455;
+  background-color: var(--background-color);
+}
+
+/*=====Componenets=====*/
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: #f4f4fd;
+}
+
+.footer-section {
+  background-color: var(--footer-sec-color);
+}
+/*===== /Componenets=====*/
+
+/*=============Header========*/
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: var(--logo-primary-color);
+}
+.accent {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: var(--logo-secondary-color);
+}
+
+.accent-dark-backg {
+  color: #f4f4fd;
+}
+
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  /* OCEAN */
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  /* OCEAN */
+  color: var(--accent-color);
+}
+
+/*============ /Header========*/
+/*=========Hero=========*/
+.hero {
+  background-color: var(--first-sec-background-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: #ffffff;
+}
+.modal-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  /* WHITE */
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/*========= /Hero=========*/
+/*=======Benefits=====*/
+
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.benefits-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+}
+
+/*======= /Benefits=====*/
+
+/*======Our Team===*/
+
+.team {
+  background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.initials {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.job-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+}
+
+/*====== /Our Team===*/
+
+/*======Portfolio===*/
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.portfolio-discr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+}
+.portf-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  cursor: pointer;
+
+  /* IRIS */
+  color: #4d5ae5;
+}
+
+.portf-button:hover,
+.portf-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/*====== /Portfolio===*/
